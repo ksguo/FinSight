@@ -1,15 +1,12 @@
-
+import './index.css' 
+import  Header from './components/Header'
 
 
 function App() {
 
-
   return (
     <>
-      <h1>Welcome to FinSight</h1>
-      <p>Your personal finance assistant.</p>
-      {/* Add more components or features here */}
-      
+      <Header />
     </>
   )
 }
