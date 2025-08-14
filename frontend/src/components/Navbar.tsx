@@ -10,6 +10,7 @@ import {
 
 const Navbar = () => {
   return (
+    <div className="flex items-center justify-center space-x-4">
     <NavigationMenu viewport={false}>
       <NavigationMenuList>
         <NavigationMenuItem>
@@ -35,6 +36,7 @@ const Navbar = () => {
         </NavigationMenuItem>
       </NavigationMenuList>
     </NavigationMenu>
+    </div>
   );
 };
 export default Navbar;
