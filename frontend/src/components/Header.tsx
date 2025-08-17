@@ -1,12 +1,12 @@
 import Navbar from "@/components/Navbar.tsx";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
-import logoImage from '@/assets/finsight_logo.svg';
+import { logoImage } from "@/assets/assets.ts";
 
 
 const Header = () => {
   return (
-    <div className="flex items-center justify-between p-4 bg-indigo-600">
+    <div className="flex items-center justify-between p-4 bg-background">
       {/*Logo*/}
       <Link to="/" className="flex items-center">
         <img src={logoImage} alt="Logo" width="200" height="200" />
